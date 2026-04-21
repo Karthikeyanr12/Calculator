@@ -1,0 +1,39 @@
+html
+{
+    background-color: black;
+}
+p
+{
+    color: white;
+    font-size: 24px;
+}
+.n,.o
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.n:hover,.o:hover
+{
+    box-shadow: 0 0 10px rgba(255,255,255,0.6);
+    box-shadow: inset 1px 1px 10px rgba(255,255,255,0.6)S;
+}
+.n
+{
+    background-color: rgb(36, 33, 33);
+}
+.o
+{
+    background-color: orange;
+    margin-bottom: 5px;
+}
+#n
+{
+    font-size: 20px;
+}

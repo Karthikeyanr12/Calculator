@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="Calculator.css">
+    </head>
+    <body>
+        <p>Calculator</p>
+        <p class="result">0</p>
+        <button class="n" style="margin-bottom: 10px;"
+        onclick="action('1')"
+        >1</button>
+        <button class="n" onclick="action('2')">2</button>
+        <button class="n" onclick="action('3')">3</button>
+        <button class="o" onclick="action('+')">+</button><br>
+        <button class="n" style="margin-bottom: 10px;"
+        onclick="action('4')" >4</button>
+        <button class="n" onclick="action('5')">5</button>
+        <button class="n" onclick="action('6')">6</button>
+        <button class="o" onclick="action('-')">-</button><br>
+        <button class="n" style="margin-bottom: 10px;"
+        onclick="action('7')">7</button>
+        <button class="n" onclick="action('8')">8</button>
+        <button class="n" onclick="action('9')">9</button>
+        <button class="o" onclick="action('*')">*</button><br>
+        <button class="n" onclick="action('0')">0</button>
+        <button class="n" onclick="action('.')">.</button>
+        <button class="n" onclick="action('=')">=</button>
+        <button class="o" style="margin-bottom: 10px;"
+        onclick="action('/')">/</button><br>
+        <button class="n"id="n" onclick="action('')">Clear</button>
+        <script src="Calculator.js"></script>
+    </body>
+</html>
