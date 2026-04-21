@@ -42,7 +42,7 @@ The main goal of this project is to **practice core frontend development concept
 ## 🚀 How to Run
 1. Clone the repository  
 ```bash
-git clone https://github.com/your-username/calculator
+git clone https://github.com/Karthikeyanr12/Calculator
 ```
 
 2. Open the project folder  
